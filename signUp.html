@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="signup-container">
+        <h3>Welcome!</h3>
+        <h1>Sign Up!</h1>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName"><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName"><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="screenName">Screen Name:</label>
+            <input type="text" id="screenName" name="screenName"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword"><br>
+
+            <label for="avatar">Avatar:</label>
+            <div class="avatar-selection">
+                <input type="radio" name="avatar" value="1">
+                <input type="radio" name="avatar" value="2">
+                <input type="radio" name="avatar" value="3">
+                <input type="radio" name="avatar" value="4">
+                <input type="radio" name="avatar" value="5">
+                <input type="radio" name="avatar" value="6">
+            </div>
+            
+            <div class="buttons">
+                <button type="reset" class="clear-btn">Clear</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+        <div class="existing-member">
+            <a href="#">Existing Member? Log In</a>
+        </div>
+    </div>
+</body>
+</html>

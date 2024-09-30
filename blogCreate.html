@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">TURTALE</h1>
+        <div class="auth">
+            <input type="text" class="auth-input" placeholder="Search...">
+            <button class="auth-btn">Create +</button>
+            <img src="images/profile.png" alt="User Avatar" width="25" class="user-avatar">
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>Explore <img src="images/explore.png" alt="Explore" width="25"></li>
+                <li>Trending<img src="images/trending.png" alt="Trending" width="25"></li>
+                <li>Profile<img src="images/user.png" alt="Profile" width="25"></li>
+                <li>Manage Blog<img src="images/blog.png" alt="Manage Blog" width="25"></li>
+                <li>Settings<img src="images/setting.png" alt="Settings" width="25"></li>
+                <li><img src="images/x.png" alt="Twitter" width="22">&nbsp;&nbsp;<img src="images/instagram.png" alt="instagram" width="22">&nbsp;&nbsp;<img src="images/facebook.png" alt="Facebook" width="22"></li>
+            </ul>
+        </div>
+        <main>
+            <div class="content-wrapper">
+                <div class="posts">
+                    <div class="create-post">
+                        <h2>Create new blog</h2>
+                        <textarea placeholder="Type something..." class="textarea"></textarea>
+                        <div class="create-buttons">
+                            <button class="clear-btn">Delete</button>
+                            <button class="submit-btn">Save as Draft</button>
+                            <button class="submit-btn">Publish</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="discover">
+                    <h2>Discover new people</h2>
+                    <ul>
+                        <li><img src="images/user.png" alt="User" width="25" class="avatar">abc123</li>
+                        <li><img src="images/user.png" alt="User" width="25" class="avatar">pqr123</li>
+                        <li><img src="images/user.png" alt="User" width="25" class="avatar">xyz123</li>
+                        <li>more...</li>
+                    </ul>
+                    <h3 class="logout">LOG OUT</h3>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
